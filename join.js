@@ -16,6 +16,7 @@
     me._callbacks = [];
     me._notifiables = [];
     me._begun = false;
+    me.length = 0;
   }
   Join.create = Join;
   Join.prototype._partial = function (i, args) {
