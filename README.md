@@ -12,11 +12,24 @@ Installation
 
 Node.JS (Server):
 
-    npm install join
+```bash
+npm install join
+```
 
 Browser:
 
-    bower install join
+You can install from bower:
+
+```bash
+bower install join
+```
+
+Or download the raw file from 
+<https://raw.github.com/FuturesJS/join/master/join.js>:
+
+```bash
+wget https://raw.github.com/FuturesJS/join/master/join.js
+```
 
 Browser Usage
 ---
