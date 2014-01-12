@@ -1,5 +1,5 @@
 /*jshint -W054 */
-(function (exports) {
+;(function (exports) {
   'use strict';
 
   function Join(context) {
