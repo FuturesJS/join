@@ -39,7 +39,11 @@ Browser Usage
 
   // Use `join.notify()` for incremental updates
   join.notify(function (i, args) {
-    console.log('Callback #' + i + ' of ' + join.length + ' completed', args);
+    console.log(
+      'Callback #' + (i + 1) 
+    + ' of ' + join.length 
+    + ' completed', args
+    );
   });
 
   // Use `join.then(cb)` to fire `cb` when all of the `join.add()` callbacks have been called.
@@ -69,7 +73,11 @@ request.get('https://www.bing.com', join.add());
 
 // Use `join.notify()` for incremental updates
 join.notify(function (i, args) {
-  console.log('Callback #' + i + ' of ' + join.length + ' completed', args);
+  console.log(
+    'Callback #' + (i + 1) 
+  + ' of ' + join.length 
+  + ' completed', args
+  );
 });
 
 // Use `join.then(cb)` to fire `cb` when all of the `join.add()` callbacks have been called.
