@@ -95,7 +95,7 @@ join.notify(function (i, args) {
 
 // Use `join.then(cb)` to fire `cb` when all of the `join.add()` callbacks have been called.
 join.then(function (googleArgs, yahooArgs, bingArgs) {
-  consol.log('All of the requests have completed');
+  console.log('All of the requests have completed');
   console.log(googleArgs[2]);
   console.log(yahooArgs[2]);
   console.log(bingArgs[2]);
