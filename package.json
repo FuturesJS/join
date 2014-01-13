@@ -4,6 +4,7 @@
   "description": "The join / synchronize module of FuturesJS (Browser, Node.js, Bower, and Pakmanager)",
   "homepage": "https://github.com/FuturesJS/join",
   "keywords": [
+    "futuresjs",
     "flow-control",
     "async",
     "asynchronous",

@@ -8,6 +8,7 @@
   ],
   "description": "Joins JavaScript's asynchronous calls together similar to how `pthread_join` works for threads.",
   "keywords": [
+    "futuresjs",
     "promises",
     "futures",
     "join",
